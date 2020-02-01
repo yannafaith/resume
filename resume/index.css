@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* End of reset */
+
+
+body  {
+    font-family: Helvetica,sans-serif;
+}
+
+body #name {
+    font-family: Khand, Helvetica,sans-serif;
+    color: #152a72;
+    font-size: 1.5rem;
+    margin-left: 4%;
+}
+
+body #title {
+    font-family: Khand,Helvetica,sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    /* margin-right: 14%; */
+    margin-right: 3%;
+}
+
+body #heading {
+    background-color: #d5d8e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin: auto;
+    font-size: 12.3px;
+}
+
+.main .right h2 {
+    margin-bottom: 6%;
+    margin-top: 6%;
+}
+
+.main h2 {
+    border-bottom: solid #3f4e83 1px;
+    color: #152a72;
+    font-family: Khand, Helvetica,sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 2%;
+    margin-top: 2.6%;
+}
+
+.main a {
+    font-family: Khand, Helvetica,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400; /* bold titles */
+    color: black;
+    text-decoration: none;
+}
+.main  p {
+    margin-bottom: 2%;
+}
+
+.main a span {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.main .left {
+    width: 96%;
+    margin-right: 5%;
+    margin: 0 auto;
+    
+}
+
+.main .right {
+    /* width: 30%; */
+}
+
+.main .right .contact {
+    font-size: .9rem;
+    font-family: Khand,Helvetica,sans-serif;
+    font-weight: 500;
+}
+
+.main .right .contact i {
+    margin-right: 5px;
+}
+
+li {
+    margin-left: 50px;
+}
+
+p, ul {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.main .projects h2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .projects h2 span {
+    font-size: 12px;
+}
+
+/*
+            <div class="contact">
+                <h2>Contact</h2>
+                 <i class="fal fa-envelope"></i>  --> yanna.faith.97@gmail.com <br/>
+                <!-- <i class="fas fa-mobile-alt"></i> --> (602)-642-4878 <br/>
+                www.yannafaith.com <br/>
+                <!-- <i class="fab fa-github"></i> --> github.com/yannafaith <br/>
+                <!-- <i class="fab fa-linkedin"></i> --> linkedin.com/in/yanna-faith/<br/>
+            </div>
+
+*/
